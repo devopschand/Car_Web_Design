@@ -11,11 +11,11 @@ spec:
       labels:
         app: car
     spec:
-    - containers:
-      name: carimage
-      image: devopschand/carweb
-      ports:
-      - containerPort: 80
+     containers:
+     - name: carimage
+       image: devopschand/carweb
+       ports:
+       - containerPort: 80
 ---
 apiVersion: v1
 kind: Service
